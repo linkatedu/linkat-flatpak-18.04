@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[ca_ES]=/usr/share/linkat/linkat-flatpak/flatpak.png
+Name[ca_ES]=Suport de Flatpak per Linkat
+Exec=sudo /usr/share/linkat/linkat-flatpak/linkat-flatpak.sh
+Comment[ca_ES]=Habilita suport de paquets Flatpak a Linkat
+Name=Suport de Flatpak per Linkat
+Comment=Suport de Flatpak per Linkat
+Icon=/usr/share/linkat/linkat-flatpak/flatpak.png
+Categories=GNOME;GTK;Utility;
+
