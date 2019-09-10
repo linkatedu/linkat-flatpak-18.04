@@ -1,0 +1,10 @@
+Package: linkat-flatpak
+Version: 18.04-1
+Architecture: all
+Maintainer: Francesc Konate <linkat@xtec.cat>
+Installed-Size: 16
+Section: misc
+Priority: extra
+Homepage: http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/linkat-flatpak
+Description: Suport de paquets Flatpak per Linkat
+ Habilita el suport de paquest Flatpak per Linkat

@@ -1,0 +1,13 @@
+Source: linkat-flatpak
+Section: misc
+Priority: extra
+Maintainer: Francesc Konate <linkat@xtec.cat>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/linkat-flatpak
+
+Package: linkat-flatpak
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Suport de paquets Flatpak per Linkat
+ Habilita el suport de paquest Flatpak per Linkat
