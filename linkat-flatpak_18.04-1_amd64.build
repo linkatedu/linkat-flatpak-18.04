@@ -1,0 +1,77 @@
+ dpkg-buildpackage -rfakeroot -us -uc -ui
+dpkg-buildpackage: info: source package linkat-flatpak
+dpkg-buildpackage: info: source version 18.04-1
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by unknown <jfkoga@unknown>
+ dpkg-source --before-build linkat-flatpak
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_clean
+ dpkg-source -b linkat-flatpak
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building linkat-flatpak using existing ./linkat-flatpak_18.04.orig.tar.bz2
+dpkg-source: info: building linkat-flatpak in linkat-flatpak_18.04-1.debian.tar.xz
+dpkg-source: info: building linkat-flatpak in linkat-flatpak_18.04-1.dsc
+ debian/rules build
+dh build
+   dh_update_autotools_config
+   dh_autoreconf
+   create-stamp debian/debhelper-build-stamp
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_missing
+   dh_installdeb
+   dh_gencontrol
+dpkg-gencontrol: warning: Depends field of package linkat-flatpak: unknown substitution variable ${shlibs:Depends}
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'linkat-flatpak' in '../linkat-flatpak_18.04-1_all.deb'.
+ dpkg-genbuildinfo
+ dpkg-genchanges  >../linkat-flatpak_18.04-1_amd64.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build linkat-flatpak
+dpkg-buildpackage: info: full upload (original source is included)
+Now running lintian linkat-flatpak_18.04-1_amd64.changes ...
+E: linkat-flatpak changes: bad-distribution-in-changes-file unstable
+E: linkat-flatpak changes: changed-by-address-malformed unknown <jfkoga@unknown>
+E: linkat-flatpak source: readme-source-is-dh_make-template
+W: linkat-flatpak source: maintainer-script-lacks-debhelper-token debian/postinst
+E: linkat-flatpak source: debian-rules-is-dh_make-template
+W: linkat-flatpak source: space-in-std-shortname-in-dep5-copyright <special license> (paragraph at line 5)
+W: linkat-flatpak: wrong-bug-number-in-closes l3:#nnnn
+E: linkat-flatpak: debian-changelog-file-contains-invalid-email-address jfkoga@unknown
+W: linkat-flatpak: new-package-should-close-itp-bug
+E: linkat-flatpak: changelog-is-dh_make-template
+E: linkat-flatpak: helper-templates-in-copyright
+W: linkat-flatpak: copyright-has-url-from-dh_make-boilerplate
+E: linkat-flatpak: copyright-contains-dh_make-todo-boilerplate
+W: linkat-flatpak: readme-debian-contains-debmake-template
+W: linkat-flatpak: spelling-error-in-description-synopsis Suport Support
+W: linkat-flatpak: spelling-error-in-description suport support
+W: linkat-flatpak: priority-extra-is-replaced-by-priority-optional
+W: linkat-flatpak: desktop-command-not-in-package usr/share/applications/linkat-flatpak.desktop sudo
+W: linkat-flatpak: script-not-executable usr/share/linkat/linkat-flatpak/linkat-flatpak.sh
+E: linkat-flatpak: script-without-interpreter control/postinst
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile dsc linkat-flatpak_18.04-1.dsc 5986BE37BFA159BB0932B5D2501A26747B8A9EF6
+
+ fixup_buildinfo linkat-flatpak_18.04-1.dsc linkat-flatpak_18.04-1_amd64.buildinfo
+ signfile buildinfo linkat-flatpak_18.04-1_amd64.buildinfo 5986BE37BFA159BB0932B5D2501A26747B8A9EF6
+
+ fixup_changes dsc linkat-flatpak_18.04-1.dsc linkat-flatpak_18.04-1_amd64.changes
+ fixup_changes buildinfo linkat-flatpak_18.04-1_amd64.buildinfo linkat-flatpak_18.04-1_amd64.changes
+ signfile changes linkat-flatpak_18.04-1_amd64.changes 5986BE37BFA159BB0932B5D2501A26747B8A9EF6
+
+Successfully signed dsc, buildinfo, changes files
