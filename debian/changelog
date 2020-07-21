@@ -1,5 +1,5 @@
-linkat-flatpak (18.04-1) unstable; urgency=medium
+linkat-flatpak (18.04-1) bionic; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
- -- unknown <jfkoga@unknown>  Tue, 13 Aug 2019 09:10:05 +0200
+ -- Francesc Konate <linkat@xtec.cat>  Tue, 13 Aug 2019 09:10:05 +0200
