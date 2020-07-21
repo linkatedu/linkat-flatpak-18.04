@@ -1,0 +1,54 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 13 Aug 2019 09:10:05 +0200
+Source: linkat-flatpak
+Binary: linkat-flatpak
+Architecture: source all
+Version: 18.04-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Francesc Konate <linkat@xtec.cat>
+Changed-By: unknown <jfkoga@unknown>
+Description:
+ linkat-flatpak - Suport de paquets Flatpak per Linkat
+Changes:
+ linkat-flatpak (18.04-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 20421a705b633379e8d167872c8c7da8af98a52e 1796 linkat-flatpak_18.04-1.dsc
+ ccc574e710a85017189cd99595938a775926d046 45174 linkat-flatpak_18.04.orig.tar.bz2
+ a3e626fd1aeeaeceeb043deadffc0b3d527d65ad 2228 linkat-flatpak_18.04-1.debian.tar.xz
+ 3a7e6bfd0e938ca8f65fab6cbaa3612575a2fb17 2720 linkat-flatpak_18.04-1_all.deb
+ 03f599bdf0e4dc0b4279d3f73ce7fecf3bc7f8f0 6668 linkat-flatpak_18.04-1_amd64.buildinfo
+Checksums-Sha256:
+ 1d8702af65cf9ff35c25552078a70ed67c779b5cf3ea72932c75512a4239a8fd 1796 linkat-flatpak_18.04-1.dsc
+ 4b66bbd74144255a5d2b13836e9fa4a14e64bf952a8b36599dba8fb0185ae8cb 45174 linkat-flatpak_18.04.orig.tar.bz2
+ 44c74e134666ef0eb7bdec4c4f7db81662ac006c4240d1af9f37eae6bb0679b0 2228 linkat-flatpak_18.04-1.debian.tar.xz
+ 5723738ee261ce8696cf84f74b15e6519b843d0a3ebf1d2fe4b875f14e4b2d74 2720 linkat-flatpak_18.04-1_all.deb
+ bc0741581bd940f54bca07a75d3af2a736dfdee2cd1cf89d43122ed47b261db1 6668 linkat-flatpak_18.04-1_amd64.buildinfo
+Files:
+ 9eea8e3c14301aac5d6d2a7b45ff2fda 1796 misc extra linkat-flatpak_18.04-1.dsc
+ c34d44a9e3f0a621a80719ae4a3f1fb2 45174 misc extra linkat-flatpak_18.04.orig.tar.bz2
+ 9bf84ed961cc3cbbb990bc9903d061b0 2228 misc extra linkat-flatpak_18.04-1.debian.tar.xz
+ b62d2fdd6df8a525d36b99e5df9089a7 2720 misc extra linkat-flatpak_18.04-1_all.deb
+ d50acc61841ed04daa453cf0013806f7 6668 misc extra linkat-flatpak_18.04-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEWYa+N7+hWbsJMrXSUBomdHuKnvYFAl1SYu8ACgkQUBomdHuK
+nvZ6sw//Y98MRR/ULwZtBrlEgDhj2J0HPL5tqxSToAS2MkYT5d1i5m//Ei2qp5qv
+gFCN1LUVSp/Cc7OnZS6Mm/+BUN2icWwIfhaI8yxMe32N4271FJtulVt7o08oa33y
+Hm7/DE+waG2ohtbVtGZjPLaD+q8nFqiTG52ByP2rvmGllBFFMRidkHPoNYIZaiKI
+QyvpRYr/y4pDgad2utMW1Dbv9q+w3llz6inmt9uZnJUKMP0G3sai0XtM92+aXFWA
+IVR1uhSCfT1mvY67Lc7G3ws7JbJmiGCCpf5nNc1N80hjSLBTKmZVTamSlWAqnQ/y
+6gPoq95km2d+CtGLmjSjA4xB+3e7l8DmAY+aVw0M20EbIqqJ17aFVgIZPcdkkGAz
+/pqqqunCm3eBjgTNj09gQEBKozFieMNXbR2FY8WSn8mmAWr9H1g0goY61lhT5KdW
+Vav6JUZTf6mokm0NHWXqUnBmfNFLhYN1EtgASbGHDzNkU/hDGdq6MPPjmWZ76nDD
+IdHK371ZWch2l1ZPLQnlOhHbwJM7edUfwiSzqzCsyv840Q8DQdnJbCtiEHGGaZzd
+obmQ0EoOXB2rpxV3rdtxXN0c5r6XO9LUl4JK78ZB+b0SmefkIIgJRTFzI+maKDNr
+pcZEjY/5iG6E1OV9zVde+jRvBPzVy+SOTUf2kpTAJ2txyo7M3t4=
+=tfyN
+-----END PGP SIGNATURE-----
